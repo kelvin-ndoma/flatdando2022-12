@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(226, 215, 215);
+    cursor: pointer;
+    
+  }
+  
+  .heading {
+    background-color:red;
+    margin-bottom: 30px;
+    padding: 5px 0px 5px 15px;
+  }
+  .navbar-brand{
+	font-size: 20px;
+	font-weight: bold;
+	color:black;
+}
+  .title {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
+    font-style: oblique;
+  }
+   #subtitle {
+    color:brown;
+    text-align:center ;
+    background-color: wheat
+  } 
+  .content {
+    color: black;
+    text-align:left;
+    font-style: italic;
+
+  }
+  #runtime {
+  
+    color: black;
+    padding: 0px 0px 5px 5px;
+    text-align: center;
+  }
+  
+  #showing {
+    margin-left: 20px;
+    
+  }
+  .description{
+    padding-bottom: 20px;
+  }
+  
+  #films li::before {
+    content: "";
+  }
+  
+  .film {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  li{
+    font-size: 20px;
+    color: black;
+  }
+ 
+  img{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+  #film-info {
+    padding-bottom: none;
+  }
+  #infobox {
+   font-size: 20px;
+   background-color: azure;
+   text-align: center;
+ 
+
+  }
+  #buy-ticket{
+    font-size: 30px;
+    background-color:orange;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+  }
+   .sold-out {
+    color: red;
+  }
+
